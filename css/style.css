@@ -1,0 +1,279 @@
+
+/* FONTS_FAMILLY */
+
+@font-face {
+    font-family:"FontAwesome";
+    src : url("./fonts/FontAwesome.otf")
+}
+
+@font-face {
+    font-family:"fontawesome-webfont";
+    src : url("./fonts/fontawesome-webfont.ttf")
+}
+
+/* FONTS_FAMILLY */
+
+/* HEADER */
+
+*{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+ }
+
+
+body{
+    background: url('./img/bg_body.svg');
+    background-color: #444444;
+}
+
+.headundergrounder{
+    background: linear-gradient(135deg,white 0% 50%, black 50% 100%);
+    position: relative;
+}
+
+.items li {
+    padding: 10px !important;
+}
+
+.logo{
+  display: inline-block;
+    width:10%;
+ 
+}
+
+.navbar{
+    text-align:right;
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+}
+
+.items{
+    font-family:fontawesome-webfont;
+    
+}
+
+li{
+    display: block;
+    color:white;
+    
+}
+/* HEADER */
+
+.slider{
+    font-family: BodegaSans_Black;
+    text-align:center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.h1n1 {
+        font-family:BodegaSans_Black;
+        text-align:left;
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        
+        
+      }
+
+.team {
+    width:100%;
+    display: block;
+}
+
+.groupmotos{
+    width:24.7839%;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+.groupmotos img {
+    width: 100%;
+    
+}
+
+
+.groupmotos p {
+    font-family:fontawesome-webfont;
+    margin-top : 20px;
+}
+
+.groupmotos h6 {
+    font-family:fontawesome-webfont;
+    font-size:18px;
+    text-align: center;
+    margin-top : 15px;
+}
+.groupmotos div {
+    background-color: white;
+    padding: 30px;
+    
+}
+
+
+
+
+.icon i{
+    margin-left: 90px;
+    font-size: 50px;
+    display:inline-block;
+}
+
+.discription {
+    width:50%;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.discription p {
+    font-family:fontawesome-webfont;
+    padding: 30px;
+    color: white;
+}
+
+.discription_video {
+    width:50%;
+    display:inline-block;
+    text-align: right;
+
+}
+
+main{
+    padding: 0px 10%;
+}
+
+.top_paragraphe_footer{
+    text-align: center;
+    font-family:BodegaSans_Black;
+    font-size: 20px;
+    color:#697572;
+}
+
+
+.paragraphe_footer {
+    text-align: center;
+    color: #697572;
+    padding: 40px;
+}
+
+.hi5{
+    text-align: center;
+}
+
+.items_footer li{
+    padding:10px;
+    display:inline-block;
+}
+
+
+.img_paragraphe_footer {
+    margin: 0 100px;
+}
+
+/* slide */
+
+.slides , img {
+    border: 1px solid white; width: 100%;  
+
+}
+
+
+.fatomata{
+    margin-top:50px;
+}
+
+.end_battom_footer {
+    line-height:20px;
+}
+
+.footerclass {
+  margin-top: 30px;
+}
+/* End Slide */
+
+
+
+
+
+/*mobile*/
+
+@media(max-width:460px){
+
+    .headundergrounder{
+
+        background: linear-gradient(135deg,white 0% 50%, black 50% 100%);
+        
+
+    }
+    .navbar{
+        text-align:right;
+        display: inline-block;
+        position: relative;
+        right: 0px;
+    }
+    .logo{
+        width:200px;
+        display: block;
+    }
+
+    .navbar , .headundergrounder{
+        display:block;
+        
+  
+    }
+
+    .groupmotos{
+        width:100%;
+        display: block;
+        padding: 10px;
+        
+    }
+
+    .discription {
+        width:100%;
+        display:block;
+    }
+
+    .icon i{
+        margin-left: 0px;
+        font-size: 50px;
+        display:block;
+        text-align: center;
+        margin-top:80px;
+        color:white;
+    }
+
+    .discription_video {
+        margin-top: 50px;
+        width: 100%;
+        display:block;
+        text-align: center;
+    }
+
+    .fatomata{
+        margin-top:30px;
+    }
+
+    .top_paragraphe_footer {
+        text-align: center;
+        font-family:BodegaSans_Black;
+        font-size: 20px;
+        color:#697572;
+    }
+
+    .items_footer li{
+        padding:30px;
+        display:block;
+    }
+
+    .end_battom_footer {
+        margin-top: 30px;
+    }
+
+    .footerclass {
+        margin-top: 50px;
+    }
+
+}
